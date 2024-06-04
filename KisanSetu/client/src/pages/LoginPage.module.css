@@ -1,0 +1,150 @@
+.loginflex {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.loginheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loginheader button{
+    background-color: transparent;
+    border: none;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.formBox {
+    min-width: 400px;
+    margin: 0 auto;
+    background-color: #FBFADA;
+    padding: 14px;
+    border-radius: 16px;
+}
+
+.form-box h2 {
+    font-size: 2em;
+    color: var(--cardingreen);
+    text-align: center;
+
+}
+
+.inputBox {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid var(--cardingreen);
+    margin: 30px 0;
+
+
+}
+
+.inputBox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: var(--cardingreen);
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+
+}
+
+.inputBox input:focus~label,
+.inputBox input:valid~label {
+    top: -5px;
+
+}
+
+.inputBox input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: var(--cardingreen);
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+
+}
+
+.icon {
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: var(--cardingreen);
+    line-height: 57px;
+}
+
+.rememberForgot {
+    font-size: .9em;
+    color: var(--cardingreen);
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rememberForgot label input {
+    accent-color: var(--cardingreen);
+    margin-right: 3px;
+}
+
+.rememberForgot a {
+    color: var(--cardingreen);
+    text-decoration: none;
+}
+
+.rememberForgot a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    width: 100%;
+    height: 45px;
+    background: var(--cardingreen);
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #FBFADA;
+    font-weight: 500;
+
+}
+
+.loginRegister {
+    font-size: .9em;
+    color: var(--cardingreen);
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+
+}
+
+.loginRegister p a {
+    color: var(--cardingreen);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.loginRegister p a:hover {
+    text-decoration: underline;
+}
+
+
+.loginlink{
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    color: blue;
+    font-weight: 800;
+    cursor: pointer;
+}
